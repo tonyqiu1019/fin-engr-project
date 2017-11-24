@@ -1,0 +1,5 @@
+# macOS finder hidden file
+.DS_Store
+
+# default UNIX executable
+a.out
