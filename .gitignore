@@ -3,3 +3,6 @@
 
 # default UNIX executable
 a.out
+
+# temporary output file
+output
