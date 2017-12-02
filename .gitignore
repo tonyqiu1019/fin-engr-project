@@ -6,3 +6,6 @@ a.out
 
 # temporary output file
 output
+
+# old data files
+data/
