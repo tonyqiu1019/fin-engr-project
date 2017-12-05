@@ -68,7 +68,6 @@ void printCycle(vector<int> &cycle, vector<string> &idx_name,
     cout << "Number of transactions: " << cycle.size()-1 << endl;
     double prod = 1.0;
     for (int i=0; i<cycle.size()-1; i++) {
-        // cout << rates[cycle[i] * MAXN + cycle[i+1]] << endl;
         prod *= rates[cycle[i] * MAXN + cycle[i+1]];
     }
     cout << "Profit: " << prod << " per 1 unit currency" << endl;
